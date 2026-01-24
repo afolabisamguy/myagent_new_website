@@ -1,0 +1,26 @@
+<svg width="250" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e6;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="housePattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#D89A16" opacity="0.05"/>
+      <path d="M20 10 L30 20 L10 20 Z" fill="#D89A16" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="250" height="500" fill="url(#bgGradient2)" rx="40"/>
+  <rect x="0" y="0" width="250" height="200" fill="#D89A16" opacity="0.15"/>
+  <rect x="0" y="0" width="250" height="200" fill="url(#housePattern)"/>
+  <circle cx="125" cy="80" r="35" fill="#D89A16" opacity="0.2"/>
+  <circle cx="125" cy="80" r="25" fill="#1a1a1a"/>
+  <text x="125" y="88" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">M</text>
+  <rect x="20" y="220" width="210" height="200" rx="12" fill="white"/>
+  <text x="125" y="250" font-family="Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Find &amp; Manage Homes With Ease</text>
+  <text x="125" y="280" font-family="Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle">Connect with verified landlords</text>
+  <text x="125" y="300" font-family="Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle">and tenants. No hidden fees.</text>
+  <rect x="30" y="360" width="85" height="40" rx="8" fill="#1a1a1a"/>
+  <text x="72.5" y="385" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="600">Get Started</text>
+  <rect x="135" y="360" width="85" height="40" rx="8" fill="#1a1a1a"/>
+  <text x="177.5" y="385" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="600">Login</text>
+</svg>
