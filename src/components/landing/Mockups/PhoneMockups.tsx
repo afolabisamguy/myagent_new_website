@@ -1,14 +1,13 @@
 import { PhoneMockup } from "./PhoneMockup";
+import phoneLeft from "@/assets/phones/phone-left.png";
+import phoneRight from "@/assets/phones/phone-right.png";
 
 interface PhoneMockupsProps {
   position: "left" | "right";
 }
 
 export function PhoneMockups({ position }: PhoneMockupsProps) {
-  const phoneImage =
-    position === "left"
-      ? "/assets/phones/phone-left.png"
-      : "/assets/phones/phone-right.png";
+  const phoneImage = position === "left" ? phoneLeft : phoneRight;
 
   return (
     <PhoneMockup
