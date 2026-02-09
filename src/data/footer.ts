@@ -9,7 +9,7 @@ export const footerLinks = {
     { label: 'Help Center', href: '#' },
     { label: 'Contact Us', href: '#contact' },
     { label: 'Terms of Service', href: '#' },
-    { label: 'Privacy Policy', href: '#' },
+    { label: 'Privacy Policy', href: '/privacy' },
   ],
 };
 
